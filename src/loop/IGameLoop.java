@@ -1,3 +1,5 @@
+package loop;
+
 /**
  * This interface represents the Type of GameLoop
  * the User can choose
