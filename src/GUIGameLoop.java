@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.*;
+
 public class GUIGameLoop extends JFrame implements IGameLoop {
     /**
      * Starts the GUI-GameLoop which initializes all
@@ -19,7 +21,10 @@ public class GUIGameLoop extends JFrame implements IGameLoop {
      * the user uses
      */
     private void setCentered() {
-
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        int xCoordinate = (int) ((screenSize.getWidth() - this.getWidth()) / 2);
+        int yCoordinate = (int) ((screenSize.getHeight() - this.getHeight()) / 2);
+        this.setLocation(xCoordinate, yCoordinate);
     }
 
     @Override
