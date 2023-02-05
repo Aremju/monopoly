@@ -1,3 +1,5 @@
+package model;
+
 public class Game {
     private boolean restart;
     private final IGameLoop gameLoop;
