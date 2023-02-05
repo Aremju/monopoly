@@ -1,0 +1,28 @@
+Patterns, welche ich unbedingt benutzen möchte:
+
+ - Command Pattern
+ - Type-Object Pattern
+ - Strategy Pattern
+ - Flyweight Pattern
+ - Singleton Pattern
+ - Adapter Pattern
+ - Observer Pattern
+ - Factory-Method Pattern (zusammen mit Singleton ggf.)
+ - Template-Method Pattern
+
+Java-Konstrukte, die ich intensivieren möchte:
+
+ - Lambda-Ausdrücke, Methodenreferenzen, Funktionale Interfaces
+ - Streams
+ - Records
+ - Optional
+
+GUI-Kenntnisse, die ich erweitern möchte:
+
+ - JFrame
+ - Listener-Interfaces
+ - Java2D
+ - JTables
+ - Widgets
+ - Layout-Manager
+ - Graphics, Java2D
