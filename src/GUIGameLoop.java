@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class GUIGameLoop extends JFrame implements IGameLoop {
+    private final int GUI_WIDTH = 900;
+    private final int GUI_HEIGHT = 600;
     /**
      * Starts the GUI-GameLoop which initializes all
      * JFrame-Components including some JFrame-Operations
@@ -9,7 +11,7 @@ public class GUIGameLoop extends JFrame implements IGameLoop {
      */
     public GUIGameLoop() {
         this.setTitle("MyMonopoly:)");
-        this.setSize(900,600);
+        this.setSize(GUI_WIDTH,GUI_HEIGHT);
         this.setCentered();
         this.setLayout(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
